@@ -21,6 +21,7 @@ variable "instance_type" {
 variable "instance_ami" {
 
 }
+//keys need to be added
 variable "keyname" {
-  default = "cicd_keys"
+  default = ""
 }
